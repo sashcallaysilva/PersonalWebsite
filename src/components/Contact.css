@@ -1,0 +1,36 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #fff;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 2rem;
+  border: 1px solid #a3a3a3;
+  background: #fafafa;
+  margin: 2rem 0;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-info-container a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-info-container a:hover {
+  text-decoration: underline;
+}
