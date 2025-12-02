@@ -1,11 +1,15 @@
 import React from 'react';
+import profilePic from '../assets/profile-pic.png';
+import linkedinIcon from '../assets/linkedin.png';
+import githubIcon from '../assets/github.png';
+import resumePDF from '../assets/resume-cs.pdf';
 
 const Profile = () => {
   return (
     <section id="profile">
       <div className="section__pic-container">
         <img
-          src="./src/assets/profile-pic.png"
+          src={profilePic}
           alt="Sebastian Ashcallay profile picture"
         />
       </div>
@@ -17,7 +21,7 @@ const Profile = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open('./src/assets/resume-cs.pdf')}
+            onClick={() => window.open(resumePDF)}
           >
             Download CV
           </button>
@@ -31,13 +35,13 @@ const Profile = () => {
 
         <div id="socials-container">
           <img
-            src="./src/assets/linkedin.png"
+            src={linkedinIcon}
             alt="My LinkedIn Profile"
             className="icon"
             onClick={() => window.open('https://www.linkedin.com/in/sebastian-ashcallay-353a1221a/', '_blank')}
           />
           <img
-            src="./src/assets/github.png"
+            src={githubIcon}
             alt="My Github Profile"
             className="icon"
             onClick={() => window.open('https://github.com/SebastianAshcallaySilva', '_blank')}

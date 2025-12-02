@@ -12,7 +12,7 @@ export const projectsData = [
       "Demonstrated proof-of-concept for AI-based celestial navigation in a five-page report, highlighting machine learning’s potential in spatial reasoning and visual inference."
     ],
     image: "project-1.gif",
-    github: "https://github.com/YourUsername/CelestialImageClassification"
+    github: "https://github.com/sashcallaysilva/StereographicProjections"
   },
   {
     title: "Predicting Professor Ratings Using Regression Models",
@@ -26,7 +26,7 @@ export const projectsData = [
       "Identified sentiment intensity and frequent use of the keyword 'great' as strong predictors of high professor ratings (correlation ≈ +0.4)."
     ],
     image: "project-2.png",
-    github: "https://github.com/YourUsername/ProfessorRatingsPrediction"
+    github: "https://github.com/sashcallaysilva/ProfessorRatingsPrediction"
   },
   {
     title: "Tabletop Companion App",
@@ -41,6 +41,6 @@ export const projectsData = [
       "Tested and debugged app functionality using Android Studio emulators to ensure seamless navigation and performance across devices."
     ],
     image: "project-3.jpg",
-    github: "https://github.com/YourUsername/TabletopCompanionApp"
+    github: "https://github.com/sashcallaysilva/TabletopCompanionApp"
   }
 ];

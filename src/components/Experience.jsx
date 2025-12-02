@@ -1,6 +1,7 @@
 import React from "react";
 import { skillCategories } from "../data/skills";
 import SkillLogoCard from "./SkillLogoCard";
+import ArrowIcon from "../assets/arrow.png";
 
 const Experience = () => {
   return (
@@ -20,10 +21,10 @@ const Experience = () => {
       ))}
 
       <img
-        src="./src/assets/arrow.png"
+        src={ArrowIcon}
         alt="Arrow icon"
         className="icon arrow"
-        onClick={() => (window.location.href = '#projects')}
+        onClick={() => (window.location.href = "#projects")}
       />
     </section>
   );

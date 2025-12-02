@@ -1,4 +1,7 @@
 import React from 'react';
+import AboutPic from '../assets/about-pic.png';
+import EducationIcon from '../assets/education.png';
+import ArrowIcon from '../assets/arrow.png';
 
 const About = () => {
   return (
@@ -9,7 +12,7 @@ const About = () => {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="./src/assets/about-pic.png"
+            src={AboutPic}
             alt="Profile Picture"
             className="about-pic"
           />
@@ -19,7 +22,7 @@ const About = () => {
           <div className="about-containers">
             <div className="details-container">
               <img
-                src="./src/assets/education.png"
+                src={EducationIcon}
                 alt="Education icon"
                 className="icon"
               />
@@ -48,25 +51,12 @@ const About = () => {
                 tutoring students in mathematics and computer science, playing soccer, 
                 and exploring innovative ways to apply data science in real-world problems.
             </p>
-            <br />
-            <br />
-            <p>
-                Additionally, I have conducted research in <strong>how EdTech companies use Generative AI in K-12 Education</strong>. 
-                You can view my written reports and essays in this project repository:{" "}
-                <a 
-                href="https://github.com/SebastianAshcallaySilva/EdTechResearch" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                >
-                EdTech Research
-                </a>.
-            </p>
           </div>
         </div>
       </div>
 
       <img
-        src="./src/assets/arrow.png"
+        src={ArrowIcon}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => (window.location.href = '#experience')}

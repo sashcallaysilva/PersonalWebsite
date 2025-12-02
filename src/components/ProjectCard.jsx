@@ -5,8 +5,10 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <div className="project-img-container">
-        <img src={`./src/assets/${project.image}`} alt={project.title} />
+        {/* Load images from public/assets */}
+        <img src={`/PersonalWebsite/assets/${project.image}`} alt={project.title} />
       </div>
+
       <h2 className="project-title">{project.title}</h2>
       <p className="project-meta">
         {project.role} | {project.date}

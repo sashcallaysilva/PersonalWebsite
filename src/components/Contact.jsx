@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import EmailIcon from "../assets/email.png";
+import LinkedInIcon from "../assets/linkedin.png";
 
 const Contact = () => {
   return (
@@ -10,7 +12,7 @@ const Contact = () => {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
-            src="./src/assets/email.png"
+            src={EmailIcon}
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
@@ -22,7 +24,7 @@ const Contact = () => {
         </div>
         <div className="contact-info-container">
           <img
-            src="./src/assets/linkedin.png"
+            src={LinkedInIcon}
             alt="LinkedIn icon"
             className="icon contact-icon"
           />

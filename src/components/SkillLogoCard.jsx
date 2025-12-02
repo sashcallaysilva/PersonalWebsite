@@ -9,7 +9,13 @@ const SkillLogoCard = ({ skill }) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <img src={`./src/assets/logos/${skill.icon}`} alt={skill.name} className="skill-logo" />
+      {/* Load images from public/assets/logos */}
+      <img
+        src={`/PersonalWebsite/assets/logos/${skill.icon}`}
+        alt={skill.name}
+        className="skill-logo"
+      />
+
       <div className="skill-bar-container">
         <div className="skill-bar" style={{ width: `${skill.level}%` }}></div>
       </div>
@@ -24,6 +30,13 @@ const SkillLogoCard = ({ skill }) => {
                 <li key={idx}>{proj}</li>
               ))}
             </ul>
+          )}
+          {skill.github && (
+            <p>
+              <a href={skill.github} target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </p>
           )}
         </div>
       )}
