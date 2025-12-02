@@ -47,8 +47,12 @@ const About = () => {
             <p>
                 My goal is to leverage my technical skills to develop applications that
                 simplify complex tasks, enhance learning experiences, and make technology
-                accessible and useful for a broader audience. Outside of coding, I enjoy 
-                tutoring students in mathematics and computer science, playing soccer, 
+                accessible and useful for a broader audience. 
+            </p>
+            <br />
+            <br />
+            <p>
+                Outside of coding, I enjoy tutoring students in mathematics and computer science, playing soccer, 
                 and exploring innovative ways to apply data science in real-world problems.
             </p>
           </div>
