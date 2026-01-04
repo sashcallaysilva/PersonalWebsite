@@ -44,7 +44,7 @@ const Profile = () => {
             src={githubIcon}
             alt="My Github Profile"
             className="icon"
-            onClick={() => window.open('https://github.com/SebastianAshcallaySilva', '_blank')}
+            onClick={() => window.open('https://github.com/sashcallaysilva/', '_blank')}
           />
         </div>
       </div>

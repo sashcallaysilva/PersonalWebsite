@@ -30,8 +30,18 @@ const About = () => {
               <p>
                 A.A. Computer Science, Honors (May 2024)
                 <br />
-                B.S. Computer Science (ML Concentration), Minor in Mathematics (Exp. Dec 2025)
+                B.S. Computer Science w/ ML Concentration (Dec 2025)
+                Minor in Mathematics 
               </p>
+            </div>
+            <div className='details-container'>
+              <img 
+                src={WorkIcon} 
+                alt="Work icon"
+                className='icon' 
+              />
+              <h3>Experience</h3>
+              <p>Software Developer Intern @ <a href="https://www.linkedin.com/company/apollonian-ai/">Apollonian AI</a></p>
             </div>
           </div>
 
