@@ -3,6 +3,7 @@ import profilePic from '../assets/profile-pic.png';
 import linkedinIcon from '../assets/linkedin.png';
 import githubIcon from '../assets/github.png';
 import resumePDF from '../assets/resume-cs.pdf';
+import ReactIcon from '../assets/React.png';
 
 const Profile = () => {
   return (
@@ -46,6 +47,11 @@ const Profile = () => {
             className="icon"
             onClick={() => window.open('https://github.com/sashcallaysilva/', '_blank')}
           />
+        </div>
+        <br />
+        <br />
+        <div className='credits'>
+          Created using React <img src={ReactIcon} alt="react-icon" className='small-icon'/>
         </div>
       </div>
     </section>

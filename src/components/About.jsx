@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutPic from '../assets/about-pic.png';
+import WorkIcon from '../assets/work.png';
 import EducationIcon from '../assets/education.png';
 import ArrowIcon from '../assets/arrow.png';
 
@@ -30,7 +31,8 @@ const About = () => {
               <p>
                 A.A. Computer Science, Honors (May 2024)
                 <br />
-                B.S. Computer Science w/ ML Concentration (Dec 2025)
+                B.S. Computer Science (Dec 2025)
+                <br />
                 Minor in Mathematics 
               </p>
             </div>
@@ -40,8 +42,9 @@ const About = () => {
                 alt="Work icon"
                 className='icon' 
               />
-              <h3>Experience</h3>
+              <h3>Internship</h3>
               <p>Software Developer Intern @ <a href="https://www.linkedin.com/company/apollonian-ai/">Apollonian AI</a></p>
+              <p>(Jan 2025  - Jul 2025)</p>
             </div>
           </div>
 

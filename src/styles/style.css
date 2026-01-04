@@ -161,6 +161,12 @@ section {
 }
 
 /* PROFILE SECTION */
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
 #profile {
     display: flex;
@@ -211,6 +217,10 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+.small-icon {
+    cursor: pointer;
+    height: 1rem; 
 }
 
 /* BUTTONS */
