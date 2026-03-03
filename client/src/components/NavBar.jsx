@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       {/* Desktop Navigation */}
       <nav id="desktop-nav">
-        <Link to="/" className="logo">Sebastian Ashcallay</Link> 
+        <Link to="/" className="logo">Sebastian Ashcallay Silva</Link> 
         <div>
           <ul className="nav-links">
             <li><Link to='/about'>{navLabels[language].about}</Link></li>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {/* Hamburger Navigation */}
       <nav id="hamburger-nav">
-        <Link to="/" className="logo">Sebastian Ashcallay</Link> 
+        <Link to="/" className="logo">Sebastian Ashcallay Silva</Link> 
         <div className="hamburger-menu">
           <div
             className={`hamburger-icon ${isOpen ? 'open' : ''}`}

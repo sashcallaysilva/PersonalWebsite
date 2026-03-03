@@ -18,12 +18,12 @@ const Profile = () => {
       <div className="section__pic-container">
         <img
           src={profilePic}
-          alt="Sebastian Ashcallay profile picture"
+          alt="Sebastian Ashcallay Silva profile picture"
         />
       </div>
       <div className="section__text">
         <p className="section__text__p1">{language === 'en' ? "Hello, I'm" : "Hola, soy"}</p>
-        <h1 className="title">Sebastian Ashcallay</h1>
+        <h1 className="title">Sebastian Ashcallay Silva</h1>
         <p className="section__text__p2">
           {language === 'en' ? "Software Developer | AI & ML" : "Desarrollador de Software | IA y ML"}
         </p>

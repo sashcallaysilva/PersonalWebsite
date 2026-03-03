@@ -4,7 +4,7 @@ const prop1 = {
         en: "Proposal 1: Is Generative A.I. the Future of Education? The Risks Involved",
         es: "Propuesta 1: ¿Es la I.A. Generativa el Futuro de la Educación? Los Riesgos Involucrados"
     },
-    author: "Sebastian Ashcallay",
+    author: "Sebastian Ashcallay Silva",
     date: {
         en: "Feb. 28, 2026, 5:00 PM EST",
         es: "28 de febrero de 2026, 5:00 PM EST"
