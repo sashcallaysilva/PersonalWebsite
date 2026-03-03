@@ -1,16 +1,71 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Repo Structure
+```bash
+my-portfolio/
+│
+├── client/                     # React + Vite frontend (Vercel)
+│   ├── public/
+│   │   ├── favicon/            # website logo
+│   │   ├── assets/            # images, icons
+│   │   │   ├── logos/
+│   ├── src/
+│   │   ├── assets/            # images, icons
+│   │   ├── components/        # reusable UI components
+│   │   ├── data/
+│   │   ├── pages/             # route-level pages
+│   │   │   ├── About.jsx
+│   │   │   ├── ContactPage.jsx
+│   │   │   ├── ExperiencePage.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── ProjectsPage.jsx
+│   │   │   ├── Blog.jsx
+│   │   │   └── BlogPost.jsx
+│   │   ├── services/          # API calls (VERY important)
+│   │   │   └── api.js
+│   │   ├── routes/             # custom React hooks (optional)
+│   │   ├── styles/             # helper functions
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx        
+│   │
+│   ├── .env                   # VITE_API_URL
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/                     # Express backend (AWS EC2)
+│   ├── src/
+│   │   ├── config/            # DB connection, env config
+│   │   │   └── db.js
+│   │   │
+│   │   ├── models/            # Mongoose schemas
+│   │   │   ├── Blog.js
+│   │   │   └── Comment.js
+│   │   │
+│   │   ├── controllers/       # business logic
+│   │   │   └── blogController.js
+│   │   │
+│   │   ├── routes/            # API routes
+│   │   │   └── blogRoutes.js
+│   │   │
+│   │   ├── middleware/        # optional (logging, errors)
+│   │   │   └── errorHandler.js
+│   │   │
+│   │   ├── utils/             # helpers (slugify, etc.)
+│   │   │   └── slugify.js
+│   │   │
+│   │   └── server.js          # entry point
+│   │
+│   ├── .env                   # MONGO_URI, PORT
+│   ├── package.json
+│   └── ecosystem.config.js    # PM2 config (optional)
+│
+├── shared/                    # OPTIONAL (nice touch)
+│   ├── constants/             # shared values (routes, etc.)
+│   └── types/                 # if you later add TypeScript
+│
+├── README.md
+├── .gitignore
+└── package.json               # optional root scripts
+```

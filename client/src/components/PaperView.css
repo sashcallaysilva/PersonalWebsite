@@ -1,0 +1,292 @@
+/* =========================
+   Base Layout
+========================= */
+.paper-section {
+  /*max-width: 1150px;*/
+  width: 100%;                     /* full width of container */
+  max-width: 1150px;               /* keeps it from getting too wide on large screens */
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #1a1a1a;
+  line-height: 1.75;
+  background-color: #ffffff;
+}
+
+.paper-content {
+  margin-top: 2rem;
+}
+
+.paper-main {
+  /*max-width: 800px;*/
+  width: 100%;                     /* fill available space */
+  max-width: 72ch;                 /* ideal line length for readability (~60-75 chars) */
+  margin: 0 auto;                  /* center content */
+  padding: 0 1rem;                 /* prevent hugging edges on small screens */
+  box-sizing: border-box;
+}
+
+/* =========================
+   Header
+========================= */
+.paper-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.paper-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.paper-author {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+.paper-date,
+.paper-reading-time {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.paper-reading-time {
+  margin-bottom: 0.5rem;
+}
+
+/* =========================
+   Language Toggle
+========================= */
+.paper-language-toggle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.paper-language-toggle button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+.paper-language-toggle button:disabled {
+  background: #e0e0e0;
+  cursor: default;
+}
+
+/* =========================
+   Typography
+========================= */
+.paper-section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+}
+
+.paper-section-subheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.paper-paragraph {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+}
+
+/* =========================
+   Lists
+========================= */
+.paper-list {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.paper-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* =========================
+   Quotes (Unified)
+========================= */
+
+/* Standard blockquote */
+.blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #444;
+}
+
+.blockquote-attribution {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Long quote (NYT-style emphasis) */
+.paper-longquote {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 4px solid #000;
+}
+
+.paper-longquote-attribution {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Pull quote */
+.paper-quote {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+/* =========================
+   Banner
+========================= */
+.paper-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* =========================
+   Buttons / Links
+========================= */
+.btn-download {
+  display: inline-block;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.btn-download:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Works Cited
+========================= */
+.paper-citations {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ddd;
+}
+
+.paper-citations-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.paper-citations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.paper-citations li {
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+  color: #333;
+}
+
+/* =========================
+   Layout (TOC + Content)
+========================= */
+.paper-layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+}
+
+/* TOC */
+.paper-toc {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  font-size: 0.9rem;
+}
+
+.paper-toc h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.paper-toc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.paper-toc li {
+  margin-bottom: 0.5rem;
+}
+
+.paper-toc a {
+  text-decoration: none;
+  color: #333;
+}
+
+.paper-toc a:hover {
+  text-decoration: underline;
+}
+
+.toc-sub {
+  margin-left: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 1200px) {
+
+  .paper-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-toc {
+    position: relative;
+    top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .paper-main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .paper-title {
+    font-size: 1.8rem;
+  }
+
+  .paper-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .paper-paragraph {
+    font-size: 1rem;
+  }
+}

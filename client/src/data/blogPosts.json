@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Is Generative AI the Future of Education? The Risks Involved",
+      "es": "¿Es la IA Generativa el Futuro de la Educación? Los Riesgos Involucrados"
+    },
+    "date": "Feb 28, 2026",
+    "preview": {
+      "en": "This post examines how generative AI is reshaping K-12 education, highlighting risks to learning retention, student dependency, and critical thinking, while exploring potential solutions through teacher-AI collaboration and guided AI design.",
+      "es": "Esta publicación analiza cómo la IA generativa está transformando la educación primaria y secundaria, destacando los riesgos para la retención del aprendizaje, la dependencia de los estudiantes y el pensamiento crítico, a la vez que explora posibles soluciones mediante la colaboración profesor-IA y el diseño guiado de IA."
+    },
+    "pdf": {
+      "en": "/assets/papers/prop-1.pdf",
+      "es": "/assets/papers/prop-1-es.pdf"
+    },
+    "citation": {
+      "en": "Ashcallay, S. (2026). Is Generative AI the Future of Education? The Risks Involved. Personal Blog.",
+      "es": "Ashcallay, S. (2026). ¿Es la IA Generativa el Futuro de la Educación? Los Riesgos Involucrados. Blog Personal."
+    },
+    "image": "/assets/papers/prop-1-cover.jpg",
+    "status": "published"
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "The Role of AI in Academic Advising",
+      "es": "El Papel de la IA en la Asesoría Académica"
+    },
+    "date": "Mar 15, 2026",
+    "preview": {
+      "en": "This post explores the current role of AI in higher education advising...",
+      "es": ""
+    },
+    "pdf": {
+      "en": "",
+      "es": ""
+    },
+    "citation": {
+      "en": "",
+      "es": ""
+    },
+    "status": "in-progress"
+  }
+]
