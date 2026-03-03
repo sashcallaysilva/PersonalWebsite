@@ -104,6 +104,7 @@ a:hover {
 
 #hamburger-nav {
     display: none;
+    z-index: 9999;     /* very high to guarantee top layer */
 }
 
 .hamburger-menu {
