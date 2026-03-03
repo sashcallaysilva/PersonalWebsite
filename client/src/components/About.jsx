@@ -70,7 +70,7 @@ const About = () => {
 
           <div className="text-container">
             {content.paragraphs.map((para, idx) => (
-              <p key={idx}>{para}</p>
+              <p key={idx}>{para}<br/><br/></p>
             ))}
           </div>
         </div>
