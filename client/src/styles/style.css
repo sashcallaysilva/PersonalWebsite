@@ -331,8 +331,7 @@ section {
 
 .about-pic {
     border-radius: 2rem;
-    width: 500px;
-    height: 500px;
+    width: auto;
 }
 
 .arrow {
